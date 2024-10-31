@@ -142,11 +142,11 @@ def monitor_firebase_storage(folder_path, interval=60):
 
 model_path = 'kendi_verilerimizz_model.h5'
 # Dosyaları izlemeye başla
-monitor_firebase_storage('images/', interval=5)
+monitor_firebase_storage('users/BcDQsDIifSTbe1Y43GRSCEW2ZGy1/BcDQsDIifSTbe1Y43GRSCEW2ZGy1', interval=5)
 
 
 # Dosyayı indirin
-firebase_image_path = 'images/cropped_image-6.png'
+firebase_image_path = 'users/BcDQsDIifSTbe1Y43GRSCEW2ZGy1/BcDQsDIifSTbe1Y43GRSCEW2ZGy1/cropped_image-0.png'
 local_image_path = 'temp_image.png'
 download_image_from_firebase(firebase_image_path, local_image_path)
 
